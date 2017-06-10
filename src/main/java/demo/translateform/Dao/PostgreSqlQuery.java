@@ -10,9 +10,9 @@ import java.sql.*;
  */
 public class PostgreSqlQuery {
     public static final String driver = "org.postgresql.Driver";
-    public static final String url = "jdbc:postgresql://139.196.104.13:5432/TOPIBD_DEMO?useUnicode=true&characterEncoding=GBK";
-    public static final String username = "toplinker";
-    public static final String password = "TopLinker0510";
+    public static final String url = "jdbc:postgresql:?useUnicode=true&characterEncoding=GBK";
+    public static final String username = "";
+    public static final String password = "";
 
     /**
      * 数据库执行查询操作
